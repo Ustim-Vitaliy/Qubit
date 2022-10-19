@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    list-style: none;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.main{    
+    
+    align-items: center;
+    padding: 13px 0 15px;
+}
+
+.nav-ul{
+    display: flex;
+    gap: 62px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+}
+
+.button{
+    padding: 13px 34px;
+    background-color:#6F2CFF;
+    border-radius: 20px;
+    border: none;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:#7c49e9;
+    transition: .5s;
+
+}
+
+.inner{
+    background: #F6BED9;
+}
+
+.inner-img{
+    margin: 59px 0;
+}
+
+.title-inner{    
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.title_color{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color:#6F2DFF;
+}
+
+.text_inner{
+    width: 438px;
+    margin: 18px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.inner-input{
+    box-sizing: border-box;
+    padding: 13px 25px 11px 25px;
+    width: 268px;
+
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    
+}
+
+.inner-input::placeholder{
+    color: rgba(0, 0, 0, 0.27);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.inner-input:focus{
+    outline: none;
+}
+
+
+.inner_button{     
+    padding: 13px 45px 11px;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    margin-left: 9px;
+}
+
+.footer{
+    background: #20003C;
+    padding: 58px 0;
+}
+
+.footer_ul{
+    display: flex;
+    gap: 74px;
+}
+
+.footer_link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
